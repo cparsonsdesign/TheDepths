@@ -29,6 +29,9 @@ public class Enemy : MonoBehaviour, IDamageable {
     private float fireRate = 0.5f;
     #endregion
 
+
+
+
     #region (Other Components and Scripts)
     ThirdPersonCharacter thirdPersonCharacter = null;
     AICharacterControl ai = null;
