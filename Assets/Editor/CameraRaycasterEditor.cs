@@ -1,6 +1,4 @@
 ﻿using UnityEditor;
-using UnityEngine;
-
 
 // TODO consider changing to a property drawer
 [CustomEditor(typeof(CameraRaycaster))]
@@ -12,7 +10,6 @@ public class CameraRaycasterEditor : Editor
     {
         serializedObject.Update(); // Serialize cameraRaycaster instance
 
-
         isLayerPrioritiesUnfolded = EditorGUILayout.Foldout(isLayerPrioritiesUnfolded, "Layer Priorities");
         if (isLayerPrioritiesUnfolded)
         {
@@ -23,7 +20,6 @@ public class CameraRaycasterEditor : Editor
             }
             EditorGUI.indentLevel--;
         }
-
 
         serializedObject.ApplyModifiedProperties(); // De-serialize back to cameraRaycaster (and create undo point)
     }
@@ -47,6 +43,4 @@ public class CameraRaycasterEditor : Editor
             prop.intValue = EditorGUILayout.LayerField(string.Format("Layer {0}:", i), prop.intValue);
         }
     }
-
-    
 }
