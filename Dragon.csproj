@@ -84,26 +84,30 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Art\Player\Knight\scripts\rotator.cs" />
+    <Compile Include="Assets\CameraUI\CameraFollow.cs" />
+    <Compile Include="Assets\CameraUI\CameraRaycaster.cs" />
+    <Compile Include="Assets\CameraUI\CursorAffordance.cs" />
+    <Compile Include="Assets\CameraUI\EnemyHealthBar.cs" />
+    <Compile Include="Assets\CameraUI\EnemyUI.cs" />
+    <Compile Include="Assets\CameraUI\PlayerHealthBar.cs" />
+    <Compile Include="Assets\Characters\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Characters\PlayerCharacters\Player.cs" />
+    <Compile Include="Assets\Characters\PlayerCharacters\PlayerMovement.cs" />
+    <Compile Include="Assets\DominantHand.cs" />
     <Compile Include="Assets\Maul_Projectile.cs" />
     <Compile Include="Assets\Projectile.cs" />
-    <Compile Include="Assets\Scripts\Camera and UI\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Camera and UI\CameraRaycaster.cs" />
-    <Compile Include="Assets\Scripts\Camera and UI\CursorAffordance.cs" />
-    <Compile Include="Assets\Scripts\Camera and UI\EnemyHealthBar.cs" />
-    <Compile Include="Assets\Scripts\Camera and UI\EnemyUI.cs" />
-    <Compile Include="Assets\Scripts\Camera and UI\PlayerHealthBar.cs" />
-    <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Player\Player.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Utility\IDamageable.cs" />
-    <Compile Include="Assets\Scripts\Utility\SpinMe.cs" />
+    <Compile Include="Assets\Weapons\Weapon.cs" />
+    <Compile Include="Assets\_Core\IDamageable.cs" />
+    <Compile Include="Assets\_Core\SpinMe.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Art\Player\Knight\shaders\clothshader.shader" />
-    <None Include="Assets\Art\Player\Knight\shaders\particledistort.shader" />
-    <None Include="Assets\Art\Player\Knight\shaders\reflectAdd.shader" />
-    <None Include="Assets\BloodMageJonas\HairShader.shader" />
+    <None Include="Assets\Characters\Enemies\Troll_Art\Alpha_Texture.shader" />
+    <None Include="Assets\Characters\Enemies\Troll_Art\DoubleSided-Light-Spec.shader" />
+    <None Include="Assets\Characters\PlayerCharacters\Jonas_Art\HairShader.shader" />
+    <None Include="Assets\Characters\PlayerCharacters\Knight_Art\clothshader.shader" />
+    <None Include="Assets\Characters\PlayerCharacters\Knight_Art\particledistort.shader" />
+    <None Include="Assets\Characters\PlayerCharacters\Knight_Art\reflectAdd.shader" />
+    <None Include="Assets\Environment\Village\FXWaterPro.shader" />
     <None Include="Assets\SETUP &amp; STANDARDS.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />

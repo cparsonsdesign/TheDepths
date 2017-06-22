@@ -127,10 +127,13 @@
     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Art\Player\Knight\shaders\clothshader.shader" />
-    <None Include="Assets\Art\Player\Knight\shaders\particledistort.shader" />
-    <None Include="Assets\Art\Player\Knight\shaders\reflectAdd.shader" />
-    <None Include="Assets\BloodMageJonas\HairShader.shader" />
+    <None Include="Assets\Characters\Enemies\Troll_Art\Alpha_Texture.shader" />
+    <None Include="Assets\Characters\Enemies\Troll_Art\DoubleSided-Light-Spec.shader" />
+    <None Include="Assets\Characters\PlayerCharacters\Jonas_Art\HairShader.shader" />
+    <None Include="Assets\Characters\PlayerCharacters\Knight_Art\clothshader.shader" />
+    <None Include="Assets\Characters\PlayerCharacters\Knight_Art\particledistort.shader" />
+    <None Include="Assets\Characters\PlayerCharacters\Knight_Art\reflectAdd.shader" />
+    <None Include="Assets\Environment\Village\FXWaterPro.shader" />
     <None Include="Assets\SETUP &amp; STANDARDS.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />

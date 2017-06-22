@@ -23,20 +23,19 @@ public class Projectile : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-       
+
         //transform.position = Vector3.MoveTowards(transform.position, player.transform.position, projectileSpeed * Time.deltaTime);
+        
 	}
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
 
         Component damageableComponent = other.gameObject.GetComponent(typeof(IDamageable));
         if(damageableComponent)
         {
             (damageableComponent as IDamageable).TakeDamage(damageCaused);
-
-
-
         }
+        Destroy(gameObject);
     }
 }
